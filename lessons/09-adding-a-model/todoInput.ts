@@ -9,6 +9,7 @@ import {TodoService, TodoModel} from "./todoService";
         </form>
     `
 })
+
 export class TodoInput{
     todoModel:TodoModel = new TodoModel();
 
