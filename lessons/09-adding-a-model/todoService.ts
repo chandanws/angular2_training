@@ -1,7 +1,7 @@
 export class TodoModel{
     status:string = "started";
 
-    constructor(
+    constructor (
         public title:string = ""
     ){}
 }
